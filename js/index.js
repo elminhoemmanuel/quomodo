@@ -4,7 +4,7 @@ $(document).ready(function(){
             window.alert("Please enter Employee Full name/Employee ID")
         } else{
             var x = document.getElementById("greeting");
-            x.style.visibility = "visible";
+            x.style.display = "block";
             
         };
     })
